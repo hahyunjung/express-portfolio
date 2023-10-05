@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portpolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/info.css" />
+    "
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Noto+Sans+KR:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="frame">
+      <%- include ('./partials/header') -%>
+
+      <div class="proflie-section">
+        <img id="profile-picture" src="img/myphoto.jpg" />
+        <div class="introduction">
+          <h2>ABOUT ME</h2>
+          <p>
+            My name is HYUNJUNG HA. I am an exchange student from South Korea. I
+            have I am currently double majoring in logistics and software. I
+            learned various languages through major classes and participated in
+            team projects. I am constantly studying and trying to develop.
+          </p>
+
+          <h2>RESUME</h2>
+          <a href="/pdffiles/resume.pdf" class="resume-button" target="_blank">
+            > Click here to read RESUME file
+          </a>
+        </div>
+      </div>
+
+      <footer><%- include ('./partials/footer') -%></footer>
+    </div>
+  </body>
+</html>

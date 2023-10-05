@@ -1,0 +1,60 @@
+/*info-section*/
+/* File name : This file is css file for info page
+Student's name:HYUNJUNG HA
+StudendID : 301383251
+Date : 4 OCT 2023 */
+.proflie-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 100px 100px;
+}
+
+#profile-picture {
+  width: 400px;
+  margin-right: 80px;
+}
+
+.introduction > h2 {
+  margin: 0px;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 1300;
+}
+
+.introduction > p {
+  margin-bottom: 40px;
+  font-family: "Noto Sans KR";
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.introduction > a {
+  margin-bottom: 40px;
+  font-family: "Noto Sans KR";
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#capability {
+  font-style: italic;
+  line-height: 30px;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.resume-button {
+  font-family: "Montserrat", sans-serif;
+  height: content;
+  width: content;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  padding-left: 0;
+}
+
+.resume-button:hover {
+  color: white;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=dege" />
+    <title>portpolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/projects.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Noto+Sans+KR:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Lobster&family=Mooli&family=Noto+Sans+KR:wght@300&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Lobster&family=Mooli&family=Noto+Sans+KR:wght@300&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="frame">
+      <nav class="navigator">
+        <img class="site-logo" src="img/logo.png" />
+        <ul>
+          <li><a href="/info" class="nav-menu">ABOUT ME</a></li>
+          <li><a href="/projects" class="nav-menu">PROJECTS</a></li>
+          <li><a href="/service" class="nav-menu">SERVICE</a></li>
+          <li><a href="/contact" class="nav-menu">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="dashboard">
+        <h1 class="korean-comment">
+          Welcome! Here is <a class="sample">HYUNJUNG's</a> WORLD<br /><br />
+          I <a class="highlight type1">dream </a>of becoming an
+          <a class="highlight type1">engineer</a> <br />who solves problem
+          <a class="highlight type1"><br />properly.</a>
+        </h1>
+
+        <p class="english-comment">
+          Based in Seoul, South Korea, but willing to travel around the world to
+          find any exciting and field-chaging works.<br />Also, always feel free
+          to call for fun side projects: Let's make our lives even better and
+          better!
+        </p>
+      </div>
+
+      <div class="recent-works">
+        <h5 class="recent-menu">RECENT WORKS</h5>
+        <div class="article" id="arti1">
+          <img class="thumbnail" id="thumb1" src="img/ai.png" />
+          <div class="article-info">
+            <h3 class="article-name">AI project</h3>
+            <p class="article-comment">
+              #AI Mathematics<br />
+              #Pytochi<br />
+              #Programming for deep learning<br />
+              #Deep Learning Foundation<br />
+              #Domain (CV, NLP, RecSys)<br /><br />
+
+              ROLE : Leader
+            </p>
+            <a class="more" href="pdffiles/certification.pdf" target="_blank"
+              >MORE ></a
+            >
+          </div>
+        </div>
+
+        <div class="article" id="arti2">
+          <div class="article-info">
+            <h3 class="article-name">C language project</h3>
+            <p class="article-comment">
+              #C programming #C ++<br />
+              #C language<br />
+              #Structure arrangement<br /><br />
+
+              ROLE : personal project
+            </p>
+            <a class="more" href="pdffiles/clanguage.pdf" target="_blank"
+              >MORE ></a
+            >
+          </div>
+          <img class="thumbnail" id="thumb2" src="img/programming.png" />
+        </div>
+
+        <div class="article" id="arti1">
+          <img class="thumbnail" id="thumb1" src="img/data.png" />
+          <div class="article-info">
+            <h3 class="article-name">GAME project</h3>
+            <p class="article-comment">
+              #protocol layer<br />
+              #web/HTTP/FTP<br />
+              #IP and Ethernet layer<br />
+              #Server / Client construction<br />
+              #Wireshark<br /><br />
+
+              ROLE : design / front-end / client
+            </p>
+            <a class="more" href="pdffiles/gameproject.pdf" target="_blank"
+              >MORE ></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <footer><%- include ('./partials/footer') -%></footer>
+    </div>
+  </body>
+</html>
